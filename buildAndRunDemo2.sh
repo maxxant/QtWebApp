@@ -9,6 +9,7 @@ cd buildD2
 cmake ../Demo2
 make
 
+cd ${rootdir}/Demo2
 export LD_LIBRARY_PATH=/usr/local/lib;
-./demo2
+../buildD2/demo2
 
